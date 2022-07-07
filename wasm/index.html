@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    </head>
+    <body style="font-family: Sans-Serif; display: block;margin-left: auto;margin-right: auto;width: 40%;text-align: center;background-color: #3f3f3f;color:white">
+        <p>Left click to draw velocity</p>
+        <p>Right click to draw density</p>
+        <p>R to reset</p>
+        <canvas id="canvas" oncontextmenu="event.preventDefault()"></canvas>
+        <script type='text/javascript'>
+            var Module = {canvas: (function() {return document.getElementById('canvas');})()};
+        </script>
+        <script src="fluid_sim.js"></script>
+    </body>
+</html>
