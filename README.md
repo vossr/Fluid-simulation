@@ -1,14 +1,13 @@
-#### Try here: https://rpehkone.github.io/Navier-Stokes-real-time/wasm/
+#### Try here: https://vossr.github.io/Fluid-simulation/wasm/
 
 ![](sim.gif)
 
-Fluid simulation using real-time Navier-Stokes equations  
+Real-time fluid simulation using Navier-Stokes equations  
 Raymarched fluid sims are state of the art in real-time vfx  
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://www.youtube.com/c/AndrasKetzer/videos  
 
-Code from paper, i rewrote for rectangular && 3d && engine integration  
-c software render with wasm emscripten  
-emcc -sWASM=1 -sSINGLE_FILE=1 -sSTRICT=0 -sASSERTIONS=0 -sMEMORY64=0 -O3  
+Code from paper, i rewrote for rectangular && 3D && engine integration  
+C software render with wasm emscripten  
 
 From paper  
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://www.researchgate.net/publication/2560062_Real-Time_Fluid_Dynamics_for_Games  
